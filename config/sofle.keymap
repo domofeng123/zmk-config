@@ -22,7 +22,7 @@
                  &kp F3 &kp LCTRL &kp LALT &mo 1  &kp LGUI      &mo 2     &kp SPACE  &kp RALT   &kp RCTRL   &none
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
         };
 
         layer_1 {
@@ -35,7 +35,7 @@
                       &none     &none    &none       &none     &none   &none  &none     &none       &none       &none
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+//            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
 
         layer_2 {
@@ -48,7 +48,7 @@
                    &none   &none   &none   &none   &none     &none   &none     &none       &none       &none
            >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+//            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
 
         layer_3 {
@@ -61,7 +61,7 @@
                    &none   &none   &none   &none   &none     &none   &none     &none       &none       &none
            >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+//           sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
         };
     };
 };
