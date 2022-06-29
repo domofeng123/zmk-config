@@ -45,7 +45,8 @@
 &trans    &kp DOT  &kp N1  &kp N2  &kp N3  &trans                    &kp LG(R)   &kp LG(LS(LBKT)) &kp LG(LS(RBKT))  &kp LG(LBKT)  &kp LG(RBKT)  &trans
 &trans  &kp COMMA  &kp N4  &kp N5  &kp N6  &trans                    &kp LG(T)   &kp F10          &kp F11           &kp F12       &kp LG(W)    &trans
 &trans     &kp N0  &kp N7  &kp N8  &kp N9  &trans  &none     &none   &kp LG(H)   &kp PG_UP        &kp PG_DN         &kp LG(C)     &kp LG(V)    &kp ESC
-                   &none   &none   &none   &none   &trans     &none   &none     &none       &none       &none
+                   &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &trans     &none   &none     &none       &bt BT_SEL 4       &bt BT_CLR
+
            >;
 
 //            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
