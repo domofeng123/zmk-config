@@ -31,6 +31,8 @@
 &kp LSHFT &kp Z  &kp X    &kp C    &kp V     &kp B  &kp C_MUTE  &kp F3   &kp N  &kp M     &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
                  &none &kp LCTRL &kp LALT &mo 1  &kp LGUI      &mo 2     &kp SPACE  &kp RALT   &kp RCTRL   &none
             >;
+sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
+
         };
 
         layer_1 {
