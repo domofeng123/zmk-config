@@ -99,7 +99,7 @@
     };
 };
 
- {
+/ {
     macros {
         press_gui: press_gui {
             label = "ZM_press_gui";
