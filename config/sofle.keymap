@@ -85,12 +85,16 @@
 
 / {
     combos {
+
         compatible = "zmk,combos";
+// this is used for switch between apps
         combo_1 {
             timeout-ms = <50>;
             key-positions = <31 32>;
             bindings = <&press_gui>;
         };
+
+// this is used for set BLE profile, and delete
         combo_2 {
             timeout-ms = <50>;
             key-positions = <50 51>;
@@ -98,6 +102,7 @@
         };
     };
 };
+
 
 / {
     macros {
