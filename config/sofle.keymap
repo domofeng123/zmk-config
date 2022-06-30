@@ -86,11 +86,30 @@
 / {
     combos {
         compatible = "zmk,combos";
-
+        combo_1 {
+            timeout-ms = <50>;
+            key-positions = <31 32>;
+            bindings = <&press_gui>;
+        };
         combo_2 {
             timeout-ms = <50>;
             key-positions = <50 51>;
             bindings = <&mo 4>;
+        };
+    };
+};
+
+ {
+    macros {
+        press_gui: press_gui {
+            label = "ZM_press_gui";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &mo 3 &kp LGUI>
+                , <&macro_pause_for_release>
+                , <&macro_release &mo 3 &kp LGUI>
+                ;
         };
     };
 };
