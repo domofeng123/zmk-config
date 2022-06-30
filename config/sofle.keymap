@@ -89,7 +89,7 @@ sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
         compatible = "zmk,combos";
 // this is used for switch between apps
         combo_1 {
-            layers = <0>
+//            layers = <0>
             timeout-ms = <50>;
             key-positions = <31 32>;
             bindings = <&press_gui>;
@@ -97,7 +97,7 @@ sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
 
 // this is used for set BLE profile, and delete
         combo_2 {
-            layers = <0>
+//            layers = <0>
             timeout-ms = <50>;
             key-positions = <50 51>;
             bindings = <&mo 4>;
@@ -105,7 +105,7 @@ sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
 
 // this is used for selecting all
         combo_3 {
-            layers = <2>
+//            layers = <2>
             timeout-ms = <50>;
             key-positions = <31 32>;
             bindings = <&kp LG(A)>;
@@ -113,7 +113,7 @@ sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
 
 //  command + space
         combo_4 {
-            layers = <0>
+//            layers = <0>
             timeout-ms = <50>;
             key-positions = <32 33>;
             bindings = <&kp LG(SPACE)>;
