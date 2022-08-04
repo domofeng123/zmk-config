@@ -50,9 +50,9 @@ sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
             bindings = <
 &trans    &kp F1    &kp F2    &kp F3      &kp F4    &kp F5                    &kp F6    &kp F7   &kp F8          &kp F9    &kp F10   &kp F11
 
-&trans    &kp N0  &kp N1  &kp N2  &kp N3  &trans                    &kp LG(R)   &kp LG(LS(LBKT)) &kp LG(LS(RBKT))  &kp LG(LBKT)  &kp LG(RBKT)  &trans
-&trans  &kp DOT  &kp N4  &kp N5  &kp N6  &trans                    &kp LG(T)   &kp F10          &kp F11          &kp F12       &kp LG(W)    &trans
-&trans  &kp COMMA  &kp N7  &kp N8  &kp N9  &trans  &none     &none   &kp LG(H)   &kp PG_UP        &kp PG_DN         &kp LG(C)     &kp LG(V)    &kp ESC
+&trans    &kp N0  &kp N1  &kp N2  &kp N3  &trans                     &kp LG(R)   &kp LG(LS(LBKT)) &kp LG(LS(RBKT))  &kp LG(LBKT)  &kp LG(RBKT)  &trans
+&trans  &kp DOT  &kp N4  &kp N5  &kp N6  &trans                      &kp LG(H)   &kp F10          &kp F11          &kp F12       &kp LG(W)    &trans
+&trans  &kp COMMA  &kp N7  &kp N8  &kp N9  &trans  &none     &none   &kp LG(T)   &kp PG_UP        &kp PG_DN         &kp LG(C)     &kp LG(V)    &kp ESC
                    &none   &none   &none   &none   &trans     &none   &none     &none              &none            &none
 
            >;
