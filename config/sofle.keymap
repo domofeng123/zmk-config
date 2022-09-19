@@ -80,6 +80,23 @@ sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
            >;
         };
 
+// this layer are for tap dance
+        default_layer {
+            bindings = <
+                &td0
+            >;
+        };
+
+    };
+
+    behaviors {
+        td0: tap_dance_0 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_0";
+            #binding-cells = <36>;
+            tapping-term-ms = <200>;
+            bindings = <&kp LSHFT>, <&kp CLCK>;
+        };
     };
 };
 
