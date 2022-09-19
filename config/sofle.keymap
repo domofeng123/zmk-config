@@ -19,18 +19,17 @@
  */
 
 / {
-    keymap {
-
-        behaviors {
-            td0: tap_dance_0 {
-                compatible = "zmk,behavior-tap-dance";
-                label = "TAP_DANCE_0";
-                #binding-cells = <36>;
-                tapping-term-ms = <200>;
-                bindings = <&kp LSHFT>, <&kp CLCK>;
-            };
+    behaviors {
+        td0: tap_dance_0 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_0";
+            #binding-cells = <36>;
+            tapping-term-ms = <200>;
+            bindings = <&kp LSHFT>, <&kp CLCK>;
         };
-
+    };
+    
+    keymap {
         compatible = "zmk,keymap";
 
         default_layer {
