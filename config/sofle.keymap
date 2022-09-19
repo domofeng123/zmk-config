@@ -27,7 +27,7 @@
 &kp N1    &kp N1 &kp N1   &kp N1   &kp N1    &kp N1                      &kp N1 &kp N1    &kp N1    &kp N1   &kp N1   &kp N1
 
 &kp TAB   &kp Q  &kp W    &kp E    &kp R     &kp T                       &kp Y  &kp U     &kp I     &kp O    &kp P    &kp BSPC
-&kp C_KBIA_NEXT  &kp A  &kp S    &kp D    &kp F     &kp G                      &kp H  &kp J     &kp K     &kp L    &mo 3   &kp RET
+&kp LC(SPACE) &kp A  &kp S    &kp D    &kp F     &kp G                      &kp H  &kp J     &kp K     &kp L    &mo 3   &kp RET
 &kp LSHFT &kp Z  &kp X    &kp C    &kp V     &kp B  &kp C_MUTE  &kp F3   &kp N  &kp M     &kp COMMA &kp DOT  &kp FSLH &kp RSHFT
                  &none &kp LCTRL &kp LALT &mo 1  &kp LGUI      &mo 2     &kp SPACE  &kp RALT   &kp RCTRL   &none
             >;
@@ -131,37 +131,51 @@ sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP &inc_dec_kp PG_UP PG_DN>;
         combo_7 {
             timeout-ms = <50>;
             key-positions = <45 46>;
-            bindings = <&kp LC(LA(LEFT))>;
+            bindings = <&kp LG(LA(LEFT))>;
         };
 
 //  ctl + alt + down: move window to middle 1/3
         combo_8 {
             timeout-ms = <50>;
             key-positions = <46 47>;
-            bindings = <&kp LC(LA(DOWN))>;
+            bindings = <&kp LG(LA(DOWN))>;
         };
 
 //  ctl + alt + right: move window to right 1/3
         combo_9 {
             timeout-ms = <50>;
             key-positions = <47 48>;
-            bindings = <&kp LC(LA(RIGHT))>;
+            bindings = <&kp LG(LA(RIGHT))>;
         };
 
-//  command + option + left: move window to left 1/2
+//  command + option + left: move window to left 2/3
         combo_10 {
             timeout-ms = <50>;
             key-positions = <45 47>;
             bindings = <&kp LG(LC(LEFT))>;
         };
 
-//  command + option + right: move window to right 1/2
+//  command + option + right: move window to right 2/3
         combo_11 {
             timeout-ms = <50>;
             key-positions = <46 48>;
             bindings = <&kp LG(LC(RIGHT))>;
         };
-       
+
+//  alt + option + left: move window to left 1/2
+        combo_12 {
+            timeout-ms = <50>;
+            key-positions = <45 46 47>;
+            bindings = <&kp LC(LA(LEFT))>;
+        };
+
+//  alt + option + right: move window to right 1/2
+        combo_13 {
+            timeout-ms = <50>;
+            key-positions = <46 47 48>;
+            bindings = <&kp LC(LA(RIGHT))>;
+        };
+
 
 // add more here
 
