@@ -9,6 +9,10 @@
 #include <dt-bindings/zmk/bt.h>
 
 /*
+ * 
+ * how to flash: 
+ * press two key in the bottom, then DOUBLE click left most key, then it will go into boot mod
+ *  
  * layer index:
  *
  * start with 0 (this row not used)
